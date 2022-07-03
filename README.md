@@ -15,4 +15,4 @@
 - ```vendor/bin/sail artisan key:generate```  
 - ```vendor/bin/sail artisan migrate```  
 
-or run ```./instal.sh```
+or run ```./install.sh```
