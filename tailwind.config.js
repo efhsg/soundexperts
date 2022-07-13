@@ -10,9 +10,23 @@ module.exports = {
     ],
 
     theme: {
+        screens: {
+            sm: '480px',
+            md: '768px',
+            lg: '976px',
+            xl: '1440px',
+        },
+        colors: {
+            'red': '#B23850',
+            'blue': '#3B8BEB',
+            'yellow': '#E7E3D4',
+            'gray-dark': '#273444',
+            'gray-light': '#8590AA',
+        },
         extend: {
             fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                default: ['Open Sans', 'sans-serif'],
+                logo: ['Anton', 'cursive'],
             },
         },
     },

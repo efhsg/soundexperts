@@ -7,14 +7,16 @@
         <title inertia>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
 
         <!-- Scripts -->
         @routes
         @vite('resources/js/app.js')
         @inertiaHead
     </head>
-    <body class="font-sans antialiased">
+    <body class="font-default antialiased bg-blue text-yellow">
         @inertia
     </body>
 </html>
