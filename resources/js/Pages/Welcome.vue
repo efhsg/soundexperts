@@ -78,7 +78,7 @@ defineProps({
                 <div class="flex flex-col">
                     <h2 class="text-lg font-bold mb-3">Professional</h2>
                     <p class="mb-4">I'm a professional and like to offer my services.</p>
-                    <Link :href="route('about')" class="mt-3 inline-flex items-center mt-auto">Find professional
+                    <Link :href="route('about')" class="mt-3 inline-flex items-center mt-auto">Look for jobs
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                              stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
